@@ -1,0 +1,11 @@
+{
+	"drill_upgrade_icon_title" : "Drill Upgrade Icons"
+	"drill_upgrade_icon_desc" : ""
+
+	"ace_icon_title" : "Old Ace Card Symbol"
+	"ace_icon_desc" : "Changes the ace symbol to the old card icon."
+	"kickstart_icon_title" : "Actual Kickstarter Symbol"
+	"kickstart_icon_desc" : "Changes the kickstarter icon to match the skill icon."
+	"icon_scale_title" : "scale"
+	"icon_scale_desc" : "Change the size of the icons."
+}
