@@ -8,6 +8,7 @@ function HUDInteraction:show_interact(...)
 	local SCALE = DrillUpgradeIcon:GetOption("icon_scale") or 1
 	
 	--Kickstarter Icon
+	local kickstarter_texture_rect
 	if ACTUAL_KICKSTARTER_ICON then
 	    kickstarter_texture_rect = { 9 * 80, 8 * 80, 80, 80 }
 	else
@@ -15,6 +16,7 @@ function HUDInteraction:show_interact(...)
 	end
 	
 	--Ace Symbol
+	local ace_textrue
 	if OLD_ACE_SYMBOL then
 	    ace_textrue = "guis/textures/pd2/skilltree/ace"
 	else
@@ -22,6 +24,8 @@ function HUDInteraction:show_interact(...)
 	end
 
     --Drill Icons Offset
+	local offset_speed
+	local offset_auto
     if ACTUAL_KICKSTARTER_ICON and 0 < managers.player:upgrade_level("player", "drill_speed_multiplier", 0) then
 	    offset_speed = 2.25
 		offset_auto  = 1.78
